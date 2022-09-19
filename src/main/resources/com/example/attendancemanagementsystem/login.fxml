@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400" prefWidth="600" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.attendancemanagementsystem.controller.LoginController">
+    <children>
+        <Label layoutX="245.0" layoutY="49.0" text="Login">
+            <font>
+                <Font name="Verdana Bold" size="36.0" />
+            </font>
+        </Label>
+        <VBox layoutX="201.0" layoutY="153.0" prefHeight="61.0" prefWidth="198.0">
+            <children>
+                <TextField fx:id="txtPersonID" promptText="Enter ID">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+                </TextField>
+                <PasswordField fx:id="txtPassword" promptText="password">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+                </PasswordField>
+                <Button fx:id="btnLogin" mnemonicParsing="false" prefHeight="25.0" prefWidth="207.0" text="Login" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
